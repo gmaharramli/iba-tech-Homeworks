@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    padding-top: 15px;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 60px;
+    font-family: "Myriad Pro";
+    text-decoration: none;
+    color: black;
+}
+
+.blue {
+    color: #4bcaff;
+}
+
+.navigation {
+    margin-top: 15px;
+    background-color: #35444f;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    border-left: 1px solid rgba(255,255,255, 0);
+    border-right: 1px solid rgba(255,255,255, 0);
+    padding: 15px;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+.nav-link:hover {
+    background-color: rgba(0, 0, 0, .2);
+    border-color: white;
+}
+
+.content {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.nav-menu {
+    border: 1px solid black;
+    width: 344px;
+}
+
+.nav-menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-menu-list a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    font-size: 27px;
+    transition: all .5s;
+}
+
+.nav-menu-list a:hover {
+    background-color: lightgrey;
+    padding-left: 30px;
+}
+
+.article {
+    width: calc(100% - 390px);
+}
+
+.article-image {
+    border: 1px solid black;
+    padding: 60px;
+    max-width: 100%;
+    height:527px;
+    transition: 2s;
+
+}
+
+.article-image img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    object-position: center;
+    margin: 0 auto;
+}
+
+.article-image:hover{
+    transform: scale(1.1);
+}
+
+.article p {
+    margin-top: 30px;
+    padding-left: 35px;
+    padding-right:30px;
+}
+.row{
+    display:flex;
+}
+.space-between{
+    justify-content: space-between;
+}
+.footer{
+    padding-top:25px;
+}
+.footer-main{
+    background-color:white
+}
+.footer-nav{
+    diplay:flex;
+    display:inline-block;
+    justify-content: left;
+    padding:25px 30px;
+}
+.footer-links{
+    font-family:"Myriad-Pro";
+    padding: 10px;
+    font-size: 28px;
+    color: black;
+    text-decoration: none;
+    transition: all .5s ease-out;
+    border-bottom:2px solid white;
+}
+.footer-links:hover {
+    border-color:#4bcaff ;
+    color:#4bcaff;
+}
+
+.copyright{
+    text-align:right;
+    padding:27px 30px;
+    font-size:24px;
+}
