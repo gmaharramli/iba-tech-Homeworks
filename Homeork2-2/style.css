@@ -1,0 +1,231 @@
+body {
+    margin:0;
+    background:url('journey.jpg');
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: auto;
+}
+
+.second-container {
+    height:51px;
+    width:auto;
+    background:black;
+    opacity:0.5;
+}
+
+.row {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.logo {
+    font-family:Verdana;
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+    font-size:23px;
+    margin-top:15px;
+    margin-left:74px;
+}
+
+.logo:hover {
+    color: #3cb878;
+}
+
+.icon {
+    border: none;
+    padding: 0;
+    width: 18px;
+    height: 21px;
+    margin-top: 15px;
+    margin-right: 18px;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    background: transparent;
+
+}
+
+.icon:hover {
+    background: transparent;
+    color: #3cb878;
+}
+
+.h-a-l {
+    margin-right: 76px;
+}
+
+p {
+    color: white;
+}
+
+.h-a-l-link{
+    font-size: 15px;
+    color: #3cb878;
+    transition: all 2s;
+    text-decoration:none;
+}
+
+.h-a-l-link:hover {
+    color: #3cb878;
+    text-decoration: underline;
+}
+
+.section {
+    width: 440px;
+    height: 575px;
+    border-radius: 5px;
+    padding:0 66px;
+    margin:115px auto 0;
+    background: white;
+    align-items: center;
+    position: relative;
+    border: 1px solid white;
+
+}
+
+
+.sign-up{
+    font-size: 21px;
+    margin-top: 25px;
+    margin-bottom:32px;
+    color:#434343;
+    transition: all 1s;
+    text-decoration: none;
+}
+
+.sign-up:hover{
+    color: black;
+    text-decoration: underline;
+}
+.log-in {
+    font-size: 17px;
+    margin-top: 29px;
+    color: #3cb878;
+    transition: all 1s;
+    text-decoration: none;
+}
+
+.log-in:hover {
+    color: #3cb878;
+    text-decoration: underline;
+}
+.green-box {
+    background: #3cb878;
+    width: 18px;
+    height: 17px;
+    left:-1px;
+    top: 23px;
+    position: absolute;
+    border: 1px solid #3cb878;
+}
+.icon-fa {
+    width: 167px;
+    height: 41px;
+    padding: 16px;
+    margin-top: 21px;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #305db8;
+    border: 1px solid grey;
+}
+
+.icon-fa:hover {
+    background-color: #184091;
+}
+
+.icon-g {
+    width: 167px;
+    height: 41px;
+    padding: 16px;
+    margin: 21px 0;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #df4a32;
+    border: 1px solid grey;
+}
+
+.icon-g:hover {
+    background-color: #ac2b16;
+}
+
+.space {
+    border-right: 1px solid grey;
+    margin:0 19px;
+}
+
+hr {
+    border: none;
+    color: #dadada;
+    overflow: visible;
+    height: 6px;
+    margin: 25px 0;
+    text-align: center;
+    border-top: 1px solid #dadada;
+}
+
+hr:after {
+    background: white;
+    content:'or';
+    padding: 0 5px;
+    position:relative;
+    top:-10px;
+}
+
+input[type=text], input[type=password] {
+    width: 320px;
+    padding: 13px;
+    margin-bottom: 13px;
+    border-radius: 5px;
+    background: white;
+    display: inline-block;
+    border: 1px solid #dadada;
+}
+
+input[type=text]:focus:hover, input[type=password]:focus:hover {
+    background-color: white;
+    outline: none;
+    box-shadow: 0 2px #b4b4b4;
+}
+
+input[type=checkbox] {
+    margin-top: 22px;
+}
+
+.t-c {
+    color: #3cb878;
+    text-decoration: none;
+}
+
+.t-c:hover {
+    text-decoration: underline;
+}
+
+.account {
+    width: 324px;
+    padding: 15px 18px;
+    margin: 25px 0;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    background: #3cb878;
+    border-radius: 5px;
+    border: 1px solid #3cb878;
+}
+
+.account:hover {
+    background:#3cb878;;
+}
